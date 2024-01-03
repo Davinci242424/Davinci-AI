@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFE18C202B461FB000DC2382 /* Davinci_AIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE18C1F2B461FB000DC2382 /* Davinci_AIApp.swift */; };
+		BFE18C222B461FB000DC2382 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE18C212B461FB000DC2382 /* ContentView.swift */; };
+		BFE18C242B461FB000DC2382 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE18C232B461FB000DC2382 /* Item.swift */; };
+		BFE18C262B461FB100DC2382 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE18C252B461FB100DC2382 /* Assets.xcassets */; };
+		BFE18C2A2B461FB100DC2382 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE18C292B461FB100DC2382 /* Preview Assets.xcassets */; };
+		BFE18C352B461FB200DC2382 /* Davinci_AITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE18C342B461FB200DC2382 /* Davinci_AITests.swift */; };
+		BFE18C3F2B461FB200DC2382 /* Davinci_AIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE18C3E2B461FB200DC2382 /* Davinci_AIUITests.swift */; };
+		BFE18C412B461FB200DC2382 /* Davinci_AIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE18C402B461FB200DC2382 /* Davinci_AIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFE18C312B461FB200DC2382 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFE18C142B461FB000DC2382 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFE18C1B2B461FB000DC2382;
+			remoteInfo = "Davinci AI";
+		};
+		BFE18C3B2B461FB200DC2382 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFE18C142B461FB000DC2382 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFE18C1B2B461FB000DC2382;
+			remoteInfo = "Davinci AI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFE18C1C2B461FB000DC2382 /* Davinci AI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Davinci AI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE18C1F2B461FB000DC2382 /* Davinci_AIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Davinci_AIApp.swift; sourceTree = "<group>"; };
+		BFE18C212B461FB000DC2382 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFE18C232B461FB000DC2382 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		BFE18C252B461FB100DC2382 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFE18C272B461FB100DC2382 /* Davinci_AI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Davinci_AI.entitlements; sourceTree = "<group>"; };
+		BFE18C292B461FB100DC2382 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFE18C2B2B461FB100DC2382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE18C302B461FB200DC2382 /* Davinci AITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Davinci AITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE18C342B461FB200DC2382 /* Davinci_AITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Davinci_AITests.swift; sourceTree = "<group>"; };
+		BFE18C3A2B461FB200DC2382 /* Davinci AIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Davinci AIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE18C3E2B461FB200DC2382 /* Davinci_AIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Davinci_AIUITests.swift; sourceTree = "<group>"; };
+		BFE18C402B461FB200DC2382 /* Davinci_AIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Davinci_AIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFE18C192B461FB000DC2382 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE18C2D2B461FB200DC2382 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE18C372B461FB200DC2382 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFE18C132B461FB000DC2382 = {
+			isa = PBXGroup;
+			children = (
+				BFE18C1E2B461FB000DC2382 /* Davinci AI */,
+				BFE18C332B461FB200DC2382 /* Davinci AITests */,
+				BFE18C3D2B461FB200DC2382 /* Davinci AIUITests */,
+				BFE18C1D2B461FB000DC2382 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFE18C1D2B461FB000DC2382 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFE18C1C2B461FB000DC2382 /* Davinci AI.app */,
+				BFE18C302B461FB200DC2382 /* Davinci AITests.xctest */,
+				BFE18C3A2B461FB200DC2382 /* Davinci AIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFE18C1E2B461FB000DC2382 /* Davinci AI */ = {
+			isa = PBXGroup;
+			children = (
+				BFE18C1F2B461FB000DC2382 /* Davinci_AIApp.swift */,
+				BFE18C212B461FB000DC2382 /* ContentView.swift */,
+				BFE18C232B461FB000DC2382 /* Item.swift */,
+				BFE18C252B461FB100DC2382 /* Assets.xcassets */,
+				BFE18C272B461FB100DC2382 /* Davinci_AI.entitlements */,
+				BFE18C2B2B461FB100DC2382 /* Info.plist */,
+				BFE18C282B461FB100DC2382 /* Preview Content */,
+			);
+			path = "Davinci AI";
+			sourceTree = "<group>";
+		};
+		BFE18C282B461FB100DC2382 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFE18C292B461FB100DC2382 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFE18C332B461FB200DC2382 /* Davinci AITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFE18C342B461FB200DC2382 /* Davinci_AITests.swift */,
+			);
+			path = "Davinci AITests";
+			sourceTree = "<group>";
+		};
+		BFE18C3D2B461FB200DC2382 /* Davinci AIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFE18C3E2B461FB200DC2382 /* Davinci_AIUITests.swift */,
+				BFE18C402B461FB200DC2382 /* Davinci_AIUITestsLaunchTests.swift */,
+			);
+			path = "Davinci AIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFE18C1B2B461FB000DC2382 /* Davinci AI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE18C442B461FB200DC2382 /* Build configuration list for PBXNativeTarget "Davinci AI" */;
+			buildPhases = (
+				BFE18C182B461FB000DC2382 /* Sources */,
+				BFE18C192B461FB000DC2382 /* Frameworks */,
+				BFE18C1A2B461FB000DC2382 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Davinci AI";
+			productName = "Davinci AI";
+			productReference = BFE18C1C2B461FB000DC2382 /* Davinci AI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFE18C2F2B461FB200DC2382 /* Davinci AITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE18C472B461FB200DC2382 /* Build configuration list for PBXNativeTarget "Davinci AITests" */;
+			buildPhases = (
+				BFE18C2C2B461FB200DC2382 /* Sources */,
+				BFE18C2D2B461FB200DC2382 /* Frameworks */,
+				BFE18C2E2B461FB200DC2382 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFE18C322B461FB200DC2382 /* PBXTargetDependency */,
+			);
+			name = "Davinci AITests";
+			productName = "Davinci AITests";
+			productReference = BFE18C302B461FB200DC2382 /* Davinci AITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFE18C392B461FB200DC2382 /* Davinci AIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE18C4A2B461FB200DC2382 /* Build configuration list for PBXNativeTarget "Davinci AIUITests" */;
+			buildPhases = (
+				BFE18C362B461FB200DC2382 /* Sources */,
+				BFE18C372B461FB200DC2382 /* Frameworks */,
+				BFE18C382B461FB200DC2382 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFE18C3C2B461FB200DC2382 /* PBXTargetDependency */,
+			);
+			name = "Davinci AIUITests";
+			productName = "Davinci AIUITests";
+			productReference = BFE18C3A2B461FB200DC2382 /* Davinci AIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFE18C142B461FB000DC2382 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					BFE18C1B2B461FB000DC2382 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					BFE18C2F2B461FB200DC2382 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = BFE18C1B2B461FB000DC2382;
+					};
+					BFE18C392B461FB200DC2382 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = BFE18C1B2B461FB000DC2382;
+					};
+				};
+			};
+			buildConfigurationList = BFE18C172B461FB000DC2382 /* Build configuration list for PBXProject "Davinci AI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFE18C132B461FB000DC2382;
+			productRefGroup = BFE18C1D2B461FB000DC2382 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFE18C1B2B461FB000DC2382 /* Davinci AI */,
+				BFE18C2F2B461FB200DC2382 /* Davinci AITests */,
+				BFE18C392B461FB200DC2382 /* Davinci AIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFE18C1A2B461FB000DC2382 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE18C2A2B461FB100DC2382 /* Preview Assets.xcassets in Resources */,
+				BFE18C262B461FB100DC2382 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE18C2E2B461FB200DC2382 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE18C382B461FB200DC2382 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFE18C182B461FB000DC2382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE18C222B461FB000DC2382 /* ContentView.swift in Sources */,
+				BFE18C242B461FB000DC2382 /* Item.swift in Sources */,
+				BFE18C202B461FB000DC2382 /* Davinci_AIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE18C2C2B461FB200DC2382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE18C352B461FB200DC2382 /* Davinci_AITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE18C362B461FB200DC2382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE18C3F2B461FB200DC2382 /* Davinci_AIUITests.swift in Sources */,
+				BFE18C412B461FB200DC2382 /* Davinci_AIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFE18C322B461FB200DC2382 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFE18C1B2B461FB000DC2382 /* Davinci AI */;
+			targetProxy = BFE18C312B461FB200DC2382 /* PBXContainerItemProxy */;
+		};
+		BFE18C3C2B461FB200DC2382 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFE18C1B2B461FB000DC2382 /* Davinci AI */;
+			targetProxy = BFE18C3B2B461FB200DC2382 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BFE18C422B461FB200DC2382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFE18C432B461FB200DC2382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BFE18C452B461FB200DC2382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Davinci AI/Davinci_AI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Davinci AI/Preview Content\"";
+				DEVELOPMENT_TEAM = MNDR3L87G4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Davinci AI/Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ai.Davinci-AI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFE18C462B461FB200DC2382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Davinci AI/Davinci_AI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Davinci AI/Preview Content\"";
+				DEVELOPMENT_TEAM = MNDR3L87G4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Davinci AI/Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ai.Davinci-AI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFE18C482B461FB200DC2382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MNDR3L87G4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ai.Davinci-AITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Davinci AI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Davinci AI";
+			};
+			name = Debug;
+		};
+		BFE18C492B461FB200DC2382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MNDR3L87G4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ai.Davinci-AITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Davinci AI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Davinci AI";
+			};
+			name = Release;
+		};
+		BFE18C4B2B461FB200DC2382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MNDR3L87G4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ai.Davinci-AIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Davinci AI";
+			};
+			name = Debug;
+		};
+		BFE18C4C2B461FB200DC2382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MNDR3L87G4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ai.Davinci-AIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Davinci AI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFE18C172B461FB000DC2382 /* Build configuration list for PBXProject "Davinci AI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE18C422B461FB200DC2382 /* Debug */,
+				BFE18C432B461FB200DC2382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFE18C442B461FB200DC2382 /* Build configuration list for PBXNativeTarget "Davinci AI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE18C452B461FB200DC2382 /* Debug */,
+				BFE18C462B461FB200DC2382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFE18C472B461FB200DC2382 /* Build configuration list for PBXNativeTarget "Davinci AITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE18C482B461FB200DC2382 /* Debug */,
+				BFE18C492B461FB200DC2382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFE18C4A2B461FB200DC2382 /* Build configuration list for PBXNativeTarget "Davinci AIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE18C4B2B461FB200DC2382 /* Debug */,
+				BFE18C4C2B461FB200DC2382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFE18C142B461FB000DC2382 /* Project object */;
+}
